@@ -1,0 +1,582 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+    <meta name="author" content="Mohammad Alam Talash">
+    <title>FSMT - CCCM Cluster Iraq</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <meta itemprop="name" content="FSMT - CCCM Cluster Iraq"/>
+    <meta itemprop="description" content="FSMT - CCCM Cluster Iraq"/>
+
+    <meta property="og:title" content="FSMT - CCCM Cluster Iraq">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://unhcr-iraq.github.io/Site-Assessment/">
+    <meta property="og:image" content="http://unhcr-iraq.github.io/Site-Assessment/SiteAssessment.jpg">
+    <meta property="og:site_name" content="FSMT - CCCM Cluster Iraq">
+    <meta property="og:description" content="FSMT - CCCM Cluster Iraq">
+
+    <link type="text/css" href="css/leaflet.css" rel="stylesheet"/>
+    <link type="text/css" href="css/leaflet.markercluster.css" rel="stylesheet"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootswatch.min.css">
+    <link rel="stylesheet" href="css/font-humanitarian.css">
+	
+    <link rel="stylesheet" type="text/css" href="css/dc.css">
+    <!-- Add IntroJs styles  -->
+    <link rel="stylesheet" type="text/css" href="css/introjs.css">
+	<link rel="stylesheet" type="text/css" href="css/dashboard.css">
+   <!--  -->
+
+
+</head>
+
+<body>
+
+    <div style="display: none;" class="col-sm-4 col-md-offset4" id="loading">
+        <h1>Patience: We are wrapping up the data... </h1><small>This webpage does not work on IE8 or older... Upgrade your browser if needed</small>
+    </div>
+
+    <div style="display: block;" class="container" id="dashboard">
+
+       <!-- <div class="col-xs-12">
+            <a href="http://iraq.cccmcluster.org/" target="_blank">
+               <img src="images/fsmtdashboard.png" style="width: 100%"></a>
+         </div>
+
+        <div class="col-xs-12">
+        -->	
+
+            <div class="row" >
+			    <div class="col-md-8">
+					<h1><strong> Monitoring of Formal Site in Iraq</strong></h1>
+					<p><small>If you need more information / documents about IDPs in Iraq, please visit the <a href="http://iraq.cccmcluster.org/" target="_blank">CCCM - Iraq website.</a></small></p>
+					<p><small><strong>Please note: </strong>The dashboard visualizes only those sites that they submitted the FSMT report, NOT all the sites. </small></p> 
+					<p><small><i><strong>Source: </strong>Formal Site Monitoring Tool (FSMT), September 2017</i></small></p> 
+                    
+                </div>
+
+			    <div class="col-md-4">
+					<a href="http://iraq.cccmcluster.org/" target="_blank"><img src="images/cccmlogo.png" style="width: 100%"></a>                   
+                </div>
+            </div>
+<hr>
+            <div class="row" id="cccm">
+                <div class="col-md-2">
+                    <a class="btn btn btn-success" href="javascript:void(0);" onclick="javascript:introJs().start();">How-To</a>                     
+                </div>
+                <div class="col-md-8"  data-step="1" data-intro="This displays the number of sites you filtered. Use the reset button to delete all your filters" data-position="right">
+                    <div id="count-info"  class="col-md-8">
+                        <p><img src="images/site.svg" alt="WASH" height="40px" width="40px"><strong><span class="filter-count"></span></strong> sites selected out of <strong><span class="total-count"></span></strong> records.</p>
+                    </div>              
+                <div class="col-md-2">
+                       <a class="reset btn btn-primary btn-sm" id="reset" href="#">Reset All flters</a> 
+				</div>
+                </div>      
+            </div>
+            <!--
+             -->
+
+            <div class="row" id="cccm">
+			    <div class="col-md-2">
+                    <h4> <strong> Profile </strong></h4>
+                      <p><small><i> Age & Gender</i></small></p></span>
+						 <img src="images/noun_4244.svg" alt="WASH" height="30px" width="30px"><span id="totalind" class="number-display"></span> Individuals <br ><br >
+                         <img src="images/family.svg" alt="WASH" height="30px" width="30px"><span id="totalhou" class="number-display"></span> Household,<br ><br >
+						 <img src="images/noun_5.svg" alt="WASH" height="30px" width="30px"><span id="totalwom" class="number-display"></span> Women<br ><br >
+						 <img src="images/man.svg" alt="WASH" height="30px" width="30px"><span id="totalmen" class="number-display"></span> Men<br ><br >
+						 <img src="images/girl.svg" alt="WASH" height="30px" width="30px"><span  id="totalgirl" class="number-display"></span> Girls  <br >  <br > 
+						 <img src="images/boy.svg" alt="WASH" height="30px" width="30px"><span id="totalboy" class="number-display"></span> Boys <br ><br >           
+                </div> 
+			
+                <div class="col-md-4">
+                    <div class="governoratep"  data-step="3" data-intro="Click on this bar chart to filter by governorate" data-position="right">
+                     <span id="gvt"> <h4> <strong> Governorates </strong></h4> </span>
+                      <span id="gvt"><p><small><i>Number of individuals</i></small></p></span>
+                    </div>                 
+                </div> 
+
+                <div  class="col-md-6"  data-step="7" data-intro="Click on the map to filter by site" data-position="left">
+                    <h4> <strong> Sites Location </strong></h4>
+                      <p><small><i>Zoom to filter by governorates only, the individual pinpoint won't work.</i></small></p>
+                    <div  class="map" id="cccm"  > </div>
+                </div>
+            </div>
+<hr>
+            <div class="row" ></div>			 
+            <div  class="row" id="cccm"  data-step="2" data-intro="Click on the pie chart below to filter the sites per condition type" data-position="center">
+                <span id="filtertext"><h4>  Filter on sectoral conditions within the sites</h4>
+                <!--<p><small><i>Source: Formal Site Monitoring Tool (FSMT)</i></small></p> </span>-->
+                    <div class="row">
+					
+							<div class="col-md-3" >
+								<div class="protection" id="cccm" class="dc-chart" >
+								  <p><img src="images/protection.png" alt="Protection" height="30px" width="30px"><strong><span id="protection">Protection</span></strong></p>
+								</div>
+							</div>
+							<div class="col-md-3" >
+								<div class="camp_management" id="cccm" class="dc-chart" >
+								  <p><img src="images/campmngt.png" alt="Protection" height="30px" width="30px"><strong><span id="camp_management">Camp Management</span></strong></p>
+								</div>
+							</div>
+							
+							<div class="col-md-3" >
+								<div class="shelter" id="cccm"  class="dc-chart" >
+								  <p><img src="images/shelter.png" alt="Shelter" height="30px" width="30px"><strong><span id="shelter">Shelter</span></strong></p>
+							    </div>
+							</div>
+							<div class="col-md-3" >
+								<div class="nfi" id="cccm" class="dc-chart" >
+								  <p><img src="images/nfi.png" alt="Health" height="30px" width="30px"><strong><span id="nfi">NFI</span></strong></p>
+								</div>
+							 </div>
+
+                    </div>
+					<hr>
+                    <div class="row">
+							<div class="col-md-3" >
+								<div class="health" id="cccm" class="dc-chart" >
+								  <p><img src="images/health.png" alt="Health" height="30px" width="30px"><strong><span id="health"> Health</span></strong></p>
+								</div>
+							</div>
+							<div class="col-md-3" >
+								<div class="food" id="cccm" class="dc-chart" >
+								  <p><img src="images/foodsecurity.png" alt="Food Security" height="30px" width="30px"><strong><span id="food">Food</span></strong></p>
+								</div>
+							</div>
+							 <div class="col-md-3" >
+								<div class="education" id="cccm" class="dc-chart" >
+								  <p><img src="images/education.png" alt="Education" height="30px" width="30px"><strong><span id="education">Education</span></strong></p>
+								</div>
+							</div>
+							 <div class="col-md-3" >
+								<div class="water" id="cccm" class="dc-chart" >
+								  <p><img src="images/water.png" alt="Water" height="30px" width="30px"><strong><span id="water">Water</span></strong></p>
+								</div>
+							 </div>
+							
+                    </div>
+                    <hr>
+                    <div class="row">
+							
+							<div class="col-md-3" >
+								<div class="sanitation" id="cccm" class="dc-chart" >
+								  <p><img src="images/sanitation.png" alt="Sanitation" height="30px" width="30px"><strong><span id="sanitation">Sanitation</span></strong></p>
+								</div>
+							</div>
+							<div class="col-md-3" >
+								<div class="waste" id="cccm" class="dc-chart" >
+								  <p><img src="images/waste.png" alt="Waste" height="30px" width="30px"><strong><span id="waste"> Waste Removal</span></strong></p>
+								</div>
+							</div>
+							<div class="col-md-3" >
+								<div class="livelihood" id="cccm" class="dc-chart" >
+								  <p><img src="images/livelihood.png" alt="Livelihood" height="30px" width="30px"><strong><span id="livelihood"> Livelihood</span></strong></p>
+								</div>
+							</div>
+							
+                    </div>
+                    <hr>
+            </div>
+    
+    </div>
+
+    <script type="text/javascript" src="js/intro.js"></script>
+    <script type="text/javascript" src="js/d3_002.js"></script>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/crossfilter.js"></script>
+    <script type="text/javascript" src="js/dc.js"></script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+
+<!--maps-->
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/leaflet.markercluster.js"></script>
+    <script type="text/javascript" src="js/dc.leaflet.js"></script>
+
+
+<script type="text/javascript">
+
+/*     Markers      */
+var numberFormat = d3.format(",f");
+
+d3.tsv("data/data.tsv", function(data) {
+ // drawMarkerSelect(data);
+  drawMarkerArea(data);
+});
+
+function drawMarkerArea(data) {
+//function drawMarkerSelect(data) {
+
+  var xf = crossfilter(data);
+
+  var groupname = "marker-select";
+
+  var all = xf.groupAll();
+  dc.dataCount("#count-info",groupname)
+        .dimension(xf)
+        .group(all);
+
+  var byIndividual = xf.dimension(function(d) { return d.individual; });
+  var byIndividualGroup = byIndividual.groupAll().reduceSum(function (d) { return d.individual; });
+
+   dc.numberDisplay("#totalind",groupname)
+       .valueAccessor(function(d){return +d})
+        .group(byIndividualGroup);
+
+
+  var byHousehold = xf.dimension(function(d) { return d.household; });
+  var byHouseholdGroup = byHousehold.groupAll().reduceSum(function (d) { return d.household; });
+   dc.numberDisplay("#totalhou",groupname)
+       .valueAccessor(function(d){return +d})
+        .group(byHouseholdGroup);
+        
+  var byMen = xf.dimension(function(d) { return d.men; });
+  var byMenGroup = byMen.groupAll().reduceSum(function (d) { return d.men; });
+   dc.numberDisplay("#totalmen",groupname)
+       .valueAccessor(function(d){return +d})
+        .group(byMenGroup);
+
+  var byWomen = xf.dimension(function(d) { return d.women; });
+  var byWomenGroup = byWomen.groupAll().reduceSum(function (d) { return d.women; });
+   dc.numberDisplay("#totalwom",groupname)
+       .valueAccessor(function(d){return +d})
+        .group(byWomenGroup);
+        
+  var byBoy = xf.dimension(function(d) { return d.boys; });
+  var byBoyGroup = byBoy.groupAll().reduceSum(function (d) { return d.boys; });
+   dc.numberDisplay("#totalboy",groupname)
+       .valueAccessor(function(d){return +d})
+        .group(byBoyGroup);
+
+  var byGirl = xf.dimension(function(d) { return d.girls; });
+  var byGirlGroup = byGirl.groupAll().reduceSum(function (d) { return d.girls; });
+
+   dc.numberDisplay("#totalgirl",groupname)
+       .valueAccessor(function(d){return +d})
+        .group(byGirlGroup);
+
+/*
+  var facilities = xf.dimension(function(d) { return d.geo; });
+  var facilitiesGroup = facilities.group().reduceCount();
+  dc.leafletMarkerChart("#cccm .map",groupname)
+      .dimension(facilities)
+      .group(facilitiesGroup)
+      .width(540)
+      .height(280)
+	  /// note that map size also need to changed in the css
+      .center([34.7503,44.5385])
+      .zoom(6)
+      .cluster(true)
+      .filterByArea(true)
+    //  .featureKeyAccessor(function(feature) {return feature.properties.geo; })
+      .renderPopup(true)
+   
+      .popup(); */
+
+  var governorates = xf.dimension(function(d) { return d.governorate; });
+  var governoratesByIndividual = governorates.group().reduceSum(function (d) { return d.individual; });
+  dc.rowChart("#cccm .governoratep",groupname)
+        .dimension(governorates)
+        .group(governoratesByIndividual)
+        .width(300)
+        .height(280)
+        .elasticX(true)
+        .renderLabel(true)
+        .ordering(function (p) { return -p.value;})
+        .colors(['#3182bd'])
+        .colorDomain([0,0])
+        .colorAccessor(function(d, i){return 1;})
+        .xAxis().ticks(4).tickFormat(d3.format("s"));
+
+  var waters = xf.dimension(function(d) { return d.camp_management; });
+  var watersGroup = waters.group().reduceCount();
+  dc.rowChart("#cccm .camp_management",groupname)
+        .dimension(waters)
+        .group(watersGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+        .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+    //   .ordering(function (p) { return -p.value; });
+
+  var waterqs = xf.dimension(function(d) { return d.shelter; });
+  var waterqsGroup = waterqs.group().reduceCount();
+  dc.rowChart("#cccm .shelter",groupname)
+        .dimension(waterqs)
+        .group(waterqsGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+    //   .ordering(function (p) { return -p.value; });
+
+  var waterqs = xf.dimension(function(d) { return d.nfi; });
+  var waterqsGroup = waterqs.group().reduceCount();
+  dc.rowChart("#cccm .nfi",groupname)
+        .dimension(waterqs)
+        .group(waterqsGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+    //   .ordering(function (p) { return -p.value; });
+
+
+  var electrics = xf.dimension(function(d) { return d.waste; });
+  var electricsGroup = electrics.group().reduceCount();
+  dc.rowChart("#cccm .waste",groupname)
+        .dimension(electrics)
+        .group(electricsGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+     //  .ordering(function (p) { return -p.value; });
+
+
+  var openelements = xf.dimension(function(d) { return d.health; });
+  var openelementsGroup = openelements.group().reduceCount();
+  dc.rowChart("#cccm .health",groupname)
+        .dimension(openelements)
+        .group(openelementsGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+     //   .ordering(function (p) { return -p.value; });
+
+  var damages = xf.dimension(function(d) { return d.food; });
+  var damagesGroup = damages.group().reduceCount();
+  dc.rowChart("#cccm .food",groupname)
+        .dimension(damages)
+        .group(damagesGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+     //   .ordering(function (p) { return -p.value; });
+
+  var hazardss = xf.dimension(function(d) { return d.protection; });
+  var hazardssGroup = hazardss.group().reduceCount();
+  dc.rowChart("#cccm .protection",groupname)
+        .dimension(hazardss)
+        .group(hazardssGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+    //    .ordering(function (p) { return -p.value; });
+
+  var miness = xf.dimension(function(d) { return d.education; });
+  var minessGroup = miness.group().reduceCount();
+  dc.rowChart("#cccm .education",groupname)
+        .dimension(miness)
+        .group(minessGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+    //    .ordering(function (p) { return -p.value; });
+
+      var miness = xf.dimension(function(d) { return d.water; });
+  var minessGroup = miness.group().reduceCount();
+  dc.rowChart("#cccm .water",groupname)
+        .dimension(miness)
+        .group(minessGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([5,0]);
+    //    .ordering(function (p) { return -p.value; });
+     var miness = xf.dimension(function(d) { return d.livelihood; });
+  var minessGroup = miness.group().reduceCount();
+  dc.rowChart("#cccm .livelihood",groupname)
+        .dimension(miness)
+        .group(minessGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+    //    .ordering(function (p) { return -p.value; });
+	  var miness = xf.dimension(function(d) { return d.sanitation; });
+  var minessGroup = miness.group().reduceCount();
+  dc.rowChart("#cccm .sanitation",groupname)
+        .dimension(miness)
+        .group(minessGroup)
+        .width(250)
+        .height(140)
+        .renderLabel(true)
+        .renderTitle(true)
+         .colors(['#2a87cf', /* Very High */
+                        '#BBDAF1', /* High*/
+                        '#88BEE7', /* Medium */
+                        '#56A2DC', /* Low */
+                        '#c6e4f9' /* no */
+                        ])
+         .colorDomain([6,0]);
+    //    .ordering(function (p) { return -p.value; });
+// The camp's name should be displayed on the map. 
+
+  // Map  
+   var camps = xf.dimension(function(d) { return d.camp_name; });
+    var campsGroup = camps.group().reduce(
+    function(p, v) { // add
+        p.individual = v.individual;
+        p.geo = v.geo;
+        ++p.count;
+        return p;
+    },
+    function(p, v) { // remove
+        --p.count;
+        return p;
+    },
+    function() { // init
+        return {count: 0};
+    }
+);
+    
+     
+  dc.leafletMarkerChart("#cccm .map",groupname)
+      .dimension(camps)
+      .group(campsGroup)
+      .width(540)
+      .height(280)
+      .center([34.7503,44.5385])
+      .zoom(6)
+      .cluster(true)
+    // .filterByArea(true)
+    //  .featureKeyAccessor(function(feature) {return feature.properties.geo; })
+      .renderPopup(true)
+      .valueAccessor(function(kv) {
+        return kv.value.count;
+    })
+    .locationAccessor(function(kv) {
+        return kv.value.geo;
+    })
+    .popup(function(kv) {
+        return kv.key;
+    });
+
+
+
+
+
+
+
+$('#reset').on('click', function (){
+  dc.filterAll(groupname);
+  dc.redrawAll(groupname);
+  return false;
+})
+
+
+//  dc.renderAll();
+  dc.renderAll(groupname);
+}
+
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+<script src="js/bootstrap.js"></script>
+
+
+<script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+
+<div class="d3-tip n" style="position: absolute; display: none; box-sizing: border-box; top: 186.9px; left: 727.5px;"></div>
+<div class="d3-tip" style="position: absolute; display: none; box-sizing: border-box;"></div>
+
+</body>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55906613-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

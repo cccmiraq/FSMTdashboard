@@ -1,128 +1,123 @@
-governorate,camp_name,household,men,women,boys,girls,individual,camp_management,shelter,nfi,water,sanitation,waste,health,food,livelihood,protection,education,geo
-Anbar,Al-Khalidiya camp 7 (AK5),157,257,365,103,257,816,0. No,1. Low,3. High,3. High,3. High,0. No,3. High,1. Low,2. Medium,1. Low,3. High,"33.345232,43.509466"
-Anbar,Al-Khalidiya camp 7 (AK7),157,257,365,103,257,816,0. No,0. No,3. High,3. High,2. Medium,0. No,2. Medium,1. Low,2. Medium,2. Medium,3. High,"33.343819,43.504708"
-Anbar,Al-Khalidiya camp 9 (AK9),133,190,180,122,190,603,0. No,1. Low,3. High,3. High,2. Medium,0. No,2. Medium,1. Low,2. Medium,1. Low,3. High,"33.346,43.513335"
-Anbar,Al-Khalidiya camp 11 (AK11),149,100,168,174,100,582,0. No,1. Low,3. High,3. High,3. High,0. No,3. High,1. Low,2. Medium,2. Medium,3. High,"33.345827,43.502009"
-Anbar,Al-Khalidiya camp 1 Markazi (AK-M1),66,109,74,76,109,352,0. No,1. Low,3. High,3. High,2. Medium,0. No,3. High,2. Medium,2. Medium,2. Medium,4. Very high,"33.350714,43.548811"
-Anbar,Al-Khalidiya camp 8 (AK-M3),98,117,119,198,117,591,0. No,2. Medium,3. High,3. High,2. Medium,0. No,2. Medium,2. Medium,3. High,2. Medium,2. Medium,"33.355324,43.550294"
-Salah al-Din,Al-Hardania,12,20,18,22,20,79,0. No,3. High,4. Very high,3. High,1. Low,0. No,3. High,1. Low,2. Medium,2. Medium,2. Medium,"34.070586,44.154639"
-Anbar,Al-Nasir Camp (AAF01),122,123,132,110,123,467,1. Low,1. Low,2. Medium,1. Low,2. Medium,2. Medium,2. Medium,1. Low,1. Low,2. Medium,4. Very high,"33.1493893832112,43.8404816900798"
-Anbar,Al-Salam Camp (AAF02),124,37,111,100,37,312,1. Low,1. Low,2. Medium,1. Low,2. Medium,2. Medium,2. Medium,1. Low,1. Low,2. Medium,3. High,"33.149196,43.842974"
-Anbar,Al-Ikhowa (AAF03),108,114,84,120,114,400,1. Low,1. Low,3. High,0. No,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,4. Very high,"33.1488526900798,43.8456313801596"
-Anbar,Al-Hijaj camp (AAF04),130,40,35,75,40,165,1. Low,1. Low,3. High,0. No,3. High,3. High,3. High,2. Medium,2. Medium,2. Medium,2. Medium,"33.1486561709942,43.848035430537"
-Anbar,caravans camp (AAF11),540,121,172,261,121,858,1. Low,1. Low,3. High,1. Low,2. Medium,2. Medium,2. Medium,2. Medium,1. Low,2. Medium,3. High,"33.146486,43.8463219130043"
-Anbar,Alamal Almanshood 2 (AAF12),105,75,78,53,75,245,1. Low,1. Low,3. High,1. Low,2. Medium,2. Medium,2. Medium,2. Medium,1. Low,2. Medium,3. High,"33.1447454565022,43.8424348595211"
-Anbar,Al Anbar (AAF19),210,392,344,291,392,1290,1. Low,1. Low,3. High,2. Medium,3. High,2. Medium,2. Medium,1. Low,2. Medium,2. Medium,3. High,"33.1430584839659,43.8395836397025"
-Anbar,Amriyat Al-Fallujah Camp 20,193,142,22,105,142,344,1. Low,1. Low,3. High,1. Low,3. High,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,3. High,"33.1403746331783,43.8429627250275"
-Anbar,Amriyat Al-Fallujah Camp 21,176,90,95,109,90,391,1. Low,0. No,3. High,1. Low,3. High,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,"33.1388994468615,43.8425874839317"
-Anbar,Zoba'a camp (AAF22),160,61,146,170,61,527,1. Low,1. Low,3. High,1. Low,3. High,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,"33.1402048870442,43.8453695695671"
-Anbar,Al-Simood / Ssumud (AAF23),75,149,43,82,149,296,1. Low,1. Low,3. High,0. No,2. Medium,0. No,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,"33.1383644303931,43.8450913610035"
-Anbar,Al Najat (AAF24),257,322,215,126,322,726,1. Low,0. No,2. Medium,0. No,3. High,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,1. Low,"33.1396912712346,43.8478520459801"
-Anbar,Amriyat Al-Fallujah Camp 27,151,130,175,145,130,559,1. Low,0. No,2. Medium,1. Low,1. Low,0. No,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,"33.1451270385529,43.8397625969789"
-Anbar,Al Abrar (AAF32),220,141,130,97,141,392,1. Low,2. Medium,2. Medium,0. No,2. Medium,0. No,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,"33.147511,43.843325"
-Anbar,Al Suhada (AAF33),254,157,149,30,157,373,1. Low,1. Low,3. High,2. Medium,3. High,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,"33.136806,43.841421"
-Kirkuk,Laylan IDP,1511,1594,2039,2389,1594,8671,1. Low,1. Low,1. Low,2. Medium,0. No,0. No,2. Medium,1. Low,1. Low,2. Medium,1. Low,"35.3282247,44.5305443"
-Anbar,Bzebiez White camp (Al-Abeadh),106,45,66,69,45,233,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,4. Very high,2. Medium,2. Medium,2. Medium,3. High,"33.143969,44.019061"
-Anbar,Ahil AlRamadi Camp (Al-Asfar),203,268,314,251,268,1080,2. Medium,2. Medium,1. Low,2. Medium,4. Very high,2. Medium,4. Very high,2. Medium,1. Low,2. Medium,2. Medium,"33.145,44.015"
-Anbar,Ahil AlRamadi 74 Camp,133,155,85,54,155,348,2. Medium,1. Low,2. Medium,2. Medium,4. Very high,2. Medium,4. Very high,2. Medium,1. Low,2. Medium,2. Medium,"33.146,44.014"
-Anbar,Bzebize IDP District  4,115,158,183,103,158,533,2. Medium,1. Low,2. Medium,2. Medium,2. Medium,2. Medium,4. Very high,2. Medium,2. Medium,3. High,2. Medium,"33.147,44.016"
-Anbar,Bzebize IDP District  3,174,175,205,270,175,840,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,4. Very high,2. Medium,2. Medium,2. Medium,2. Medium,"33.143,44.02"
-Anbar,Al-Amal Al-manshood 1 MoDM camp (AAF05),85,169,205,124,169,620,2. Medium,2. Medium,1. Low,3. High,2. Medium,0. No,3. High,2. Medium,2. Medium,2. Medium,2. Medium,"33.1483369114514,43.8510494778628"
-Anbar,School (AAF06),40,110,150,140,110,500,2. Medium,1. Low,1. Low,3. High,2. Medium,2. Medium,3. High,2. Medium,4. Very high,3. High,3. High,"33.1480803294581,43.8530096047349"
-Anbar,Amriyat Al-Fallujah semi-perminant / UNHCR Halls (Al Qa'at AAF07),64,25,33,26,25,104,2. Medium,1. Low,1. Low,1. Low,2. Medium,0. No,2. Medium,3. High,3. High,2. Medium,2. Medium,"33.1469100030515,43.8505055221372"
-Anbar,Al-Sa'ada camp (AAF08),267,195,222,132,195,651,2. Medium,1. Low,1. Low,2. Medium,3. High,2. Medium,3. High,2. Medium,3. High,2. Medium,2. Medium,"33.1453143603005,43.8506160105078"
-Anbar,Sabe Sanabul camp (AAF09),35,29,15,36,29,123,2. Medium,1. Low,1. Low,2. Medium,2. Medium,0. No,3. High,2. Medium,3. High,2. Medium,3. High,"33.1449311297714,43.8538630916002"
-Anbar,Al-Abaydh camp (AAF10),136,394,410,101,394,985,2. Medium,1. Low,1. Low,3. High,2. Medium,0. No,3. High,3. High,3. High,3. High,3. High,"33.1437004717598,43.8504106167888"
-Anbar,caravans camp (AAF13),90,97,61,117,97,325,2. Medium,1. Low,1. Low,2. Medium,2. Medium,0. No,3. High,2. Medium,3. High,3. High,2. Medium,"33.1422743923658,43.846501212217"
-Anbar,Iraq Camp (AAF14),149,171,141,137,171,624,2. Medium,1. Low,2. Medium,1. Low,3. High,0. No,3. High,2. Medium,3. High,3. High,3. High,"33.1429520824456,43.8534505725145"
-Anbar,Baghdad camp (AAF15),87,123,97,120,123,455,2. Medium,2. Medium,1. Low,3. High,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,3. High,3. High,"33.1407655603084,43.8530131832003"
-Anbar,Kiram Al Fallujah Camp (AAF16),140,150,124,186,150,625,2. Medium,1. Low,1. Low,2. Medium,2. Medium,2. Medium,3. High,2. Medium,2. Medium,2. Medium,2. Medium,"33.1392474015203,43.850315920606"
-Anbar,Al-Tahrir (Al Khanjar AAF18),197,87,146,138,87,476,2. Medium,2. Medium,1. Low,3. High,3. High,2. Medium,3. High,2. Medium,2. Medium,3. High,3. High,"33.1472761648911,43.8400539816908"
-Anbar,Al Bashayir camp (AAF25),189,110,111,202,110,618,2. Medium,1. Low,1. Low,2. Medium,3. High,2. Medium,3. High,3. High,2. Medium,2. Medium,3. High,"33.1379150165597,43.8474454334642"
-Anbar,Al-Tahadi (AAF26),186,166,188,152,166,662,2. Medium,1. Low,1. Low,3. High,2. Medium,0. No,3. High,3. High,2. Medium,3. High,2. Medium,"33.1375084040438,43.8499279098773"
-Anbar,Amriyat Al-Fallujah Camp 30,260,251,219,375,251,1140,2. Medium,1. Low,1. Low,2. Medium,3. High,2. Medium,4. Very high,3. High,3. High,3. High,2. Medium,"33.142128,43.855296"
-Anbar,Amriyat Al-Fallujah Camp 31,180,315,148,327,315,1058,2. Medium,2. Medium,1. Low,3. High,2. Medium,0. No,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,"33.140172,43.854786"
-Anbar,Al Tahrer Central,161,146,101,170,146,696,2. Medium,0. No,1. Low,3. High,2. Medium,0. No,4. Very high,1. Low,3. High,2. Medium,4. Very high,"33.250813,43.584368"
-Anbar,Al Tahrer 1,115,106,138,160,106,580,2. Medium,0. No,1. Low,2. Medium,2. Medium,2. Medium,2. Medium,1. Low,2. Medium,2. Medium,4. Very high,"33.2497539221476,43.5850294491277"
-Anbar,Al-Qasir RHU Camp A,206,325,370,320,325,1313,2. Medium,1. Low,1. Low,1. Low,2. Medium,0. No,3. High,2. Medium,3. High,2. Medium,2. Medium,"33.250864,43.579861"
-Anbar,Al-Qasir 4 - RHU Camp B,170,217,173,325,217,917,2. Medium,1. Low,1. Low,2. Medium,2. Medium,0. No,3. High,2. Medium,3. High,2. Medium,2. Medium,"33.251819,43.581758"
-Anbar,Fallujah camp 1 - HTC,95,72,102,124,72,400,2. Medium,1. Low,2. Medium,1. Low,3. High,2. Medium,3. High,1. Low,3. High,2. Medium,4. Very high,"33.25358,43.58336"
-Anbar,Fallujah camp 8 - HTC,215,261,279,283,261,1101,2. Medium,1. Low,1. Low,3. High,2. Medium,0. No,4. Very high,2. Medium,3. High,2. Medium,4. Very high,"33.256382,43.588007"
-Anbar,Al Samsud,47,47,49,65,47,205,2. Medium,1. Low,1. Low,2. Medium,3. High,0. No,3. High,2. Medium,3. High,2. Medium,3. High,"33.248314,43.587558"
-Anbar,Fallujah camp 9 - HTC,154,150,148,242,150,765,2. Medium,1. Low,1. Low,3. High,3. High,0. No,3. High,1. Low,3. High,2. Medium,4. Very high,"33.260841,43.602467"
-Anbar,Kilo 18,792,748,973,1039,748,3702,2. Medium,1. Low,1. Low,1. Low,2. Medium,3. High,2. Medium,2. Medium,2. Medium,2. Medium,4. Very high,"33.398393,43.13661"
-Anbar,Al-Khalidiya camp 13 (AK13),96,100,128,99,100,451,2. Medium,1. Low,3. High,3. High,2. Medium,0. No,3. High,1. Low,2. Medium,2. Medium,4. Very high,"33.34607,43.503163"
-Baghdad,Al-Amal / Nassir Wa Salam Caravans,115,139,154,91,139,462,2. Medium,2. Medium,4. Very high,1. Low,2. Medium,0. No,4. Very high,2. Medium,2. Medium,2. Medium,3. High,"33.29297,44.021672"
-Baghdad,Kadhra'a,58,99,100,57,99,307,2. Medium,2. Medium,4. Very high,2. Medium,1. Low,0. No,3. High,2. Medium,2. Medium,2. Medium,3. High,"33.316856,44.290992"
-Baghdad,Al Jamea'a,50,64,64,70,64,260,2. Medium,2. Medium,4. Very high,2. Medium,0. No,0. No,3. High,2. Medium,3. High,2. Medium,2. Medium,"33.311139,44.315428"
-Baghdad,Latifiya 2,13,19,21,24,19,88,2. Medium,2. Medium,2. Medium,3. High,1. Low,0. No,3. High,3. High,3. High,2. Medium,3. High,"32.9851222,44.4756722"
-Baghdad,Latifiya 1,37,38,41,48,38,182,2. Medium,2. Medium,2. Medium,3. High,2. Medium,2. Medium,3. High,2. Medium,3. High,2. Medium,3. High,"32.91360323,44.55127716"
-Baghdad,Al Wahda Camp,62,92,86,78,92,336,2. Medium,2. Medium,1. Low,1. Low,2. Medium,2. Medium,3. High,2. Medium,3. High,2. Medium,3. High,"33.114462,44.373308"
-Baghdad,Al-Nabi Younis,100,104,120,195,104,664,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,3. High,4. Very high,2. Medium,2. Medium,2. Medium,4. Very high,"33.36286,44.66264"
-Baghdad,Zayona,112,101,109,92,101,395,2. Medium,2. Medium,1. Low,2. Medium,2. Medium,3. High,3. High,1. Low,1. Low,1. Low,3. High,"33.317933,44.445211"
-Kirkuk,Nazrawa,1146,1183,1538,1801,1183,6386,2. Medium,2. Medium,0. No,1. Low,0. No,2. Medium,3. High,1. Low,1. Low,1. Low,1. Low,"35.293098,44.575559"
-Kirkuk,Daquq,758,638,966,1194,638,3967,2. Medium,1. Low,0. No,1. Low,0. No,2. Medium,3. High,2. Medium,2. Medium,1. Low,2. Medium,"35.23435,44.38096"
-Kirkuk,Laylan 2,704,709,951,1244,709,4213,2. Medium,1. Low,1. Low,1. Low,0. No,2. Medium,3. High,1. Low,2. Medium,2. Medium,2. Medium,"35.329312,44.527722"
-Missan,Eyes of Missan,16,24,22,23,24,92,2. Medium,2. Medium,1. Low,1. Low,0. No,2. Medium,3. High,3. High,4. Very high,2. Medium,1. Low,"31.8858333,47.1677778"
-Salah al-Din,Hajjaj Camp / Rub-Hall,6,10,15,11,10,48,2. Medium,3. High,4. Very high,4. Very high,2. Medium,2. Medium,4. Very high,2. Medium,2. Medium,2. Medium,4. Very high,"34.82049,43.51328"
-Anbar,Bzebiez central camp (Al-Markazi),725,1037,944,790,1037,3438,3. High,2. Medium,2. Medium,2. Medium,3. High,2. Medium,4. Very high,2. Medium,2. Medium,2. Medium,2. Medium,"33.137507,44.011953"
-Anbar,Bzebize IDP District  1,231,293,348,401,293,1410,3. High,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,4. Very high,2. Medium,1. Low,2. Medium,2. Medium,"33.133,44.028"
-Anbar,Bzebiez central camp,295,456,365,374,456,1562,3. High,2. Medium,2. Medium,2. Medium,4. Very high,2. Medium,4. Very high,2. Medium,2. Medium,2. Medium,1. Low,"33.13861,44.02083"
-Anbar,Al-Amirya - Albu Jwad,319,487,341,332,487,1560,3. High,2. Medium,2. Medium,2. Medium,2. Medium,2. Medium,4. Very high,2. Medium,2. Medium,2. Medium,1. Low,"33.14891935,43.99069786"
-Anbar,Al Ihssan ,430,672,692,518,672,2322,3. High,1. Low,1. Low,2. Medium,3. High,2. Medium,4. Very high,2. Medium,1. Low,2. Medium,3. High,"33.137487,44.012261"
-Anbar,Al-Hijra,304,220,252,381,220,1226,3. High,1. Low,2. Medium,0. No,2. Medium,0. No,3. High,2. Medium,3. High,2. Medium,2. Medium,"33.251064,43.577665"
-Anbar,Al Tahrer 2,235,202,239,121,202,881,3. High,1. Low,1. Low,2. Medium,2. Medium,2. Medium,2. Medium,1. Low,2. Medium,2. Medium,3. High,"33.2524700982013,43.5852117832484"
-Anbar,Fallujah camp 5 - HTC,233,268,192,279,268,1034,3. High,1. Low,1. Low,2. Medium,3. High,0. No,3. High,1. Low,2. Medium,2. Medium,2. Medium,"33.254943,43.587816"
-Anbar,Fallujah camp 7 - HTC,306,315,353,416,315,1502,3. High,1. Low,1. Low,1. Low,2. Medium,2. Medium,3. High,1. Low,2. Medium,2. Medium,4. Very high,"33.249555,43.590561"
-Anbar,Al-Khalidiya camp 6 (AK4),40,55,72,62,55,235,3. High,1. Low,3. High,3. High,2. Medium,2. Medium,3. High,2. Medium,3. High,2. Medium,3. High,"33.352077,43.512334"
-Baghdad,Shooting Camp / Al Ahel,169,224,222,199,224,845,3. High,2. Medium,4. Very high,1. Low,1. Low,0. No,4. Very high,1. Low,2. Medium,2. Medium,2. Medium,"33.48413056,44.18941667"
-Baghdad,Al salam / al takia al kasnazania,167,210,212,245,210,852,3. High,2. Medium,1. Low,1. Low,2. Medium,3. High,3. High,2. Medium,2. Medium,2. Medium,3. High,"33.225832,44.36767"
-Kirkuk,Yahyawa,704,911,964,933,911,3782,3. High,1. Low,0. No,2. Medium,3. High,2. Medium,3. High,1. Low,1. Low,2. Medium,1. Low,"35.327263,44.49611"
-Anbar,Al-Khalidiya Semi-perminant camp,10,11,10,14,11,47,4. Very high,2. Medium,4. Very high,2. Medium,2. Medium,0. No,4. Very high,2. Medium,3. High,3. High,2. Medium,"33.377581,43.544117"
-Anbar,Al-Khalidiya camp 3 (AK1),0,1,0,0,1,1,4. Very high,2. Medium,4. Very high,4. Very high,2. Medium,2. Medium,4. Very high,3. High,4. Very high,3. High,3. High,"33.351127,43.516294"
-Anbar,Al-Khalidiya camp 10 (AK10),0,0,1,0,0,1,4. Very high,2. Medium,4. Very high,4. Very high,2. Medium,2. Medium,4. Very high,4. Very high,4. Very high,3. High,3. High,"33.348634,43.518401"
-Ninewa,As Salamyiah 1,1654,1225,1647,2267,1225,7444,0. No,1. Low,0. No,1. Low,0. No,0. No,1. Low,2. Medium,1. Low,1. Low,2. Medium,"36.150123,43.332902"
-Ninewa,As Salamyiah 2,4032,4130,4949,6178,4130,21560,0. No,1. Low,0. No,2. Medium,0. No,0. No,1. Low,1. Low,1. Low,1. Low,1. Low,"36.1537365,43.3208858"
-Salah al-Din,Al Sh'hamah / Kamarah,750,668,838,935,668,3438,0. No,2. Medium,1. Low,2. Medium,1. Low,0. No,3. High,1. Low,2. Medium,2. Medium,1. Low,"34.689,43.619"
-Ninewa,Qayyarah Airstrip,7678,9781,6672,11973,9781,40451,1. Low,1. Low,0. No,0. No,1. Low,2. Medium,2. Medium,1. Low,1. Low,1. Low,1. Low,"35.761354,43.262971"
-Ninewa,Qayyarah-Jad'ah 1 & 2,2439,2201,2716,2831,2201,10601,1. Low,2. Medium,1. Low,2. Medium,2. Medium,0. No,3. High,2. Medium,1. Low,1. Low,1. Low,"35.76045,43.268035"
-Ninewa,Qayyarah-Jad'ah 3,1787,1656,2154,2398,1656,8573,1. Low,2. Medium,1. Low,2. Medium,2. Medium,0. No,3. High,1. Low,2. Medium,1. Low,1. Low,"35.75123,43.26595"
-Ninewa,Qayyarah-Jad'ah 5,5067,4006,5717,6333,4006,22422,1. Low,1. Low,1. Low,2. Medium,2. Medium,0. No,3. High,2. Medium,2. Medium,1. Low,1. Low,"35.76501,43.25513"
-Ninewa,Hamam Al Alil 1,3875,3377,4761,5669,3377,19636,1. Low,1. Low,0. No,1. Low,2. Medium,0. No,3. High,1. Low,2. Medium,0. No,1. Low,"36.158681,43.252498"
-Salah al-Din,Al-Alam,1060,1121,1301,1884,1121,6194,1. Low,2. Medium,2. Medium,1. Low,0. No,2. Medium,2. Medium,1. Low,1. Low,1. Low,2. Medium,"34.824892,43.584781"
-Erbil,Debaga 1,1678,2114,2481,2172,2114,9094,2. Medium,1. Low,0. No,2. Medium,2. Medium,2. Medium,2. Medium,1. Low,2. Medium,2. Medium,2. Medium,"35.882912,43.808181"
-Erbil,Debaga 2,197,236,250,312,236,1120,2. Medium,1. Low,0. No,1. Low,0. No,2. Medium,3. High,1. Low,2. Medium,2. Medium,2. Medium,"35.879121,43.801301"
-Ninewa,Khazer M1,2142,1729,1793,3324,1729,10276,2. Medium,1. Low,0. No,0. No,1. Low,0. No,3. High,2. Medium,2. Medium,2. Medium,1. Low,"36.30807,43.54371"
-Ninewa,Hasansham U2,1082,893,1232,1811,893,5723,2. Medium,1. Low,0. No,1. Low,1. Low,2. Medium,3. High,1. Low,1. Low,1. Low,1. Low,"36.30727,43.53602"
-Ninewa,Hasansham U3,1262,1076,1450,1972,1076,6364,2. Medium,2. Medium,0. No,1. Low,0. No,0. No,3. High,1. Low,1. Low,2. Medium,1. Low,"36.32304,43.5395"
-Ninewa,As Salamyiah Nimrud,952,799,1193,1337,799,4752,2. Medium,1. Low,0. No,1. Low,1. Low,0. No,2. Medium,1. Low,1. Low,1. Low,2. Medium,"36.10508,43.32115"
-Ninewa,Haj Ali,5497,3908,6010,8136,3908,26239,2. Medium,1. Low,0. No,2. Medium,0. No,0. No,3. High,2. Medium,2. Medium,1. Low,1. Low,"35.751975,43.3220083"
-Ninewa,Qayyarah-Jad'ah 4,1430,1290,1509,1798,1290,6396,2. Medium,1. Low,1. Low,2. Medium,1. Low,0. No,3. High,2. Medium,2. Medium,2. Medium,1. Low,"35.7812,43.2689"
-Ninewa,Qayyarah-Jad'ah 6,3506,3217,4012,4052,3217,15529,2. Medium,1. Low,1. Low,2. Medium,2. Medium,0. No,3. High,1. Low,2. Medium,1. Low,1. Low,"35.766787,43.255097"
-Ninewa,Hamam Al Alil 2,4066,3265,4931,6679,3265,21301,2. Medium,1. Low,0. No,1. Low,0. No,0. No,2. Medium,1. Low,2. Medium,2. Medium,2. Medium,"36.15132,43.2427"
-Salah al-Din,Basateen Al Sheuokh,462,507,518,661,507,2391,2. Medium,2. Medium,0. No,2. Medium,0. No,3. High,3. High,3. High,2. Medium,1. Low,1. Low,"35.5238283,43.234783"
-Sulaymaniyah,Surdesh,362,431,424,404,431,1638,2. Medium,1. Low,0. No,1. Low,0. No,0. No,3. High,1. Low,2. Medium,2. Medium,2. Medium,"35.853415,45.093014"
-Dahuk,Kabarto 2,2517,3354,3594,3276,3354,13393,1. Low,1. Low,0. No,1. Low,2. Medium,2. Medium,3. High,2. Medium,1. Low,1. Low,3. High,"36.79299,42.85833"
-Dahuk,Khanke,2844,4130,4373,3848,4130,16280,1. Low,1. Low,1. Low,2. Medium,1. Low,0. No,3. High,2. Medium,1. Low,1. Low,3. High,"36.77905,42.77649"
-Dahuk,Shariya,3067,4077,4441,3923,4077,16448,1. Low,2. Medium,2. Medium,2. Medium,0. No,2. Medium,2. Medium,2. Medium,1. Low,1. Low,2. Medium,"36.79687,42.96181"
-Dahuk,Berseve 1,1599,2200,2374,2155,2200,8864,1. Low,2. Medium,0. No,1. Low,2. Medium,2. Medium,3. High,2. Medium,1. Low,2. Medium,2. Medium,"37.18099,42.85387"
-Diyala,Al-Wand 1,710,777,831,686,777,3125,1. Low,1. Low,0. No,1. Low,1. Low,0. No,3. High,2. Medium,1. Low,1. Low,2. Medium,"34.325296,45.452691"
-Diyala,Al-Wand 2,248,286,290,270,286,1144,1. Low,1. Low,0. No,1. Low,1. Low,0. No,2. Medium,2. Medium,2. Medium,1. Low,3. High,"34.319722,45.451111"
-Diyala,Qoratu,244,258,275,269,258,1124,1. Low,1. Low,0. No,2. Medium,0. No,0. No,2. Medium,2. Medium,2. Medium,2. Medium,3. High,"34.544193,45.390722"
-Erbil,Baharka,834,876,939,1148,876,4125,1. Low,2. Medium,0. No,0. No,3. High,2. Medium,3. High,2. Medium,2. Medium,2. Medium,3. High,"36.294349,43.992"
-Ninewa,Sheikhan,848,1233,1199,1096,1233,4629,1. Low,2. Medium,1. Low,2. Medium,2. Medium,2. Medium,1. Low,2. Medium,2. Medium,2. Medium,2. Medium,"36.677814,43.343325"
-Dahuk,Dawadia,652,805,927,888,805,3466,2. Medium,1. Low,0. No,1. Low,2. Medium,0. No,3. High,1. Low,2. Medium,2. Medium,3. High,"37.093332,43.229453"
-Dahuk,Bajet Kandala,1998,2590,2804,3365,2590,12166,2. Medium,1. Low,1. Low,3. High,1. Low,0. No,3. High,2. Medium,2. Medium,3. High,3. High,"37.054789,42.445256"
-Dahuk,Rwanga Community,2638,3992,4773,3249,3992,15458,2. Medium,1. Low,1. Low,3. High,2. Medium,2. Medium,3. High,2. Medium,3. High,2. Medium,3. High,"37.0603,42.618683"
-Dahuk,Berseve 2,1703,2299,2532,2336,2299,9382,2. Medium,1. Low,2. Medium,2. Medium,1. Low,2. Medium,3. High,2. Medium,1. Low,2. Medium,2. Medium,"37.17934,42.86215"
-Dahuk,Darkar,719,986,1022,961,986,3958,2. Medium,1. Low,1. Low,2. Medium,2. Medium,2. Medium,3. High,2. Medium,2. Medium,2. Medium,2. Medium,"37.198176,42.832349"
-Erbil,Harshm,304,313,339,432,313,1513,2. Medium,1. Low,1. Low,2. Medium,4. Very high,2. Medium,4. Very high,2. Medium,1. Low,3. High,3. High,"36.256285,43.994913"
-Ninewa,Mamilian,353,495,569,443,495,1970,2. Medium,2. Medium,1. Low,2. Medium,2. Medium,0. No,3. High,2. Medium,2. Medium,1. Low,1. Low,"36.68664,43.7965"
-Ninewa,Essian,2655,3677,3933,3444,3677,14656,2. Medium,2. Medium,1. Low,2. Medium,2. Medium,0. No,3. High,1. Low,2. Medium,2. Medium,3. High,"36.72461,43.26904"
-Ninewa,Mamrashan,1644,2168,2342,2023,2168,8560,2. Medium,1. Low,4. Very high,1. Low,2. Medium,0. No,2. Medium,2. Medium,2. Medium,1. Low,1. Low,"36.667236,43.433069"
-Ninewa,Garmawa,368,349,401,543,349,1870,2. Medium,1. Low,1. Low,2. Medium,2. Medium,0. No,3. High,1. Low,1. Low,2. Medium,2. Medium,"36.646885,43.237"
-Sulaymaniyah,Barzinja,110,121,127,103,121,443,2. Medium,1. Low,0. No,2. Medium,0. No,0. No,3. High,1. Low,2. Medium,2. Medium,2. Medium,"35.532773,45.690558"
-Sulaymaniyah,Tazade,508,519,583,641,519,2348,2. Medium,2. Medium,0. No,1. Low,2. Medium,0. No,3. High,1. Low,1. Low,1. Low,2. Medium,"34.70576,45.44898"
-Sulaymaniyah,Arbat IDP,376,375,396,522,375,1828,2. Medium,1. Low,0. No,1. Low,0. No,0. No,3. High,1. Low,1. Low,2. Medium,2. Medium,"35.4344959,45.590574"
-Sulaymaniyah,Ashti IDP,2470,2403,2804,3223,2403,11794,2. Medium,1. Low,0. No,2. Medium,0. No,0. No,3. High,1. Low,1. Low,2. Medium,2. Medium,"35.41762,45.60593"
-Anbar,Al-Khalidiya camp 13 (AK13),0,1,0,0,1,1,4. Very High,2. Medium,4. Very High,4. Very High,2. Medium,2. Medium,4. Very High,3. High,4. Very High,3. High,2. Medium,"33.34607,43.503163"
+Governorate;Camp Name;household;men;women;boys;girls;individual;Camp Management;Shelter;NFIs;Water;Sanitation;Waste removal;Health;Food;Livelihood;Protection;Education;Geo
+Ninewa;As Salamyiah 1;1654;1199;1624;2230;1199;7329;0. No;1. Low;0. No;2. Medium;0. No;0. No;2. Medium;1. Low;1. Low;1. Low;2. Medium;36.150123,43.332902
+Ninewa;As Salamyiah 2;4018;4099;4907;6163;4099;21429;0. No;1. Low;0. No;2. Medium;0. No;0. No;2. Medium;1. Low;1. Low;1. Low;1. Low;36.1537365,43.3208858
+Anbar;Al-Khalidiya camp 7 (AK5);60;71;71;86;71;298;1. Low;1. Low;4. Very high;3. High;2. Medium;0. No;2. Medium;1. Low;2. Medium;2. Medium;3. High;33.345232,43.509466
+Anbar;Al-Khalidiya camp 7 (AK7);126;132;189;182;132;655;1. Low;1. Low;4. Very high;3. High;2. Medium;0. No;2. Medium;1. Low;2. Medium;2. Medium;3. High;33.343819,43.504708
+Anbar;Al-Khalidiya camp 9 (AK9);100;119;110;88;119;397;1. Low;1. Low;4. Very high;3. High;2. Medium;0. No;1. Low;2. Medium;2. Medium;2. Medium;3. High;33.346,43.513335
+Anbar;Al-Khalidiya camp 11 (AK11);120;80;104;130;80;411;1. Low;1. Low;4. Very high;3. High;3. High;0. No;1. Low;1. Low;2. Medium;2. Medium;3. High;33.345827,43.502009
+Anbar;Al-Khalidiya camp 8 (AK-M3);122;120;151;235;120;741;1. Low;1. Low;4. Very high;3. High;2. Medium;0. No;1. Low;2. Medium;2. Medium;2. Medium;4. Very high;33.355324,43.550294
+Baghdad;Al-Nabi Younis;90;133;138;73;133;412;1. Low;1. Low;1. Low;2. Medium;1. Low;0. No;1. Low;1. Low;2. Medium;2. Medium;4. Very high;33.36286,44.66264
+Dahuk;Dawadia;655;805;929;885;805;3463;1. Low;1. Low;0. No;2. Medium;2. Medium;0. No;2. Medium;1. Low;2. Medium;2. Medium;3. High;37.093332,43.229453
+Dahuk;Kabarto 1;2496;3552;3834;2994;3552;13494;1. Low;1. Low;0. No;1. Low;2. Medium;2. Medium;0. No;2. Medium;1. Low;2. Medium;3. High;36.7863,42.8549
+Dahuk;Kabarto 2;2531;3361;3601;3295;3361;13445;1. Low;1. Low;0. No;1. Low;2. Medium;0. No;0. No;2. Medium;2. Medium;1. Low;3. High;36.79299,42.85833
+Dahuk;Shariya;3054;4068;4443;3935;4068;16467;1. Low;2. Medium;3. High;2. Medium;0. No;2. Medium;1. Low;2. Medium;1. Low;1. Low;2. Medium;36.79687,42.96181
+Dahuk;Berseve 1;1596;2206;2379;2143;2206;8853;1. Low;2. Medium;0. No;1. Low;2. Medium;2. Medium;0. No;2. Medium;1. Low;3. High;2. Medium;37.18099,42.85387
+Dahuk;Chamishku;5027;7337;7805;6269;7337;27394;1. Low;1. Low;4. Very high;1. Low;2. Medium;0. No;0. No;2. Medium;1. Low;2. Medium;2. Medium;37.178,42.668
+Dahuk;Darkar;718;987;1025;960;987;3957;1. Low;1. Low;1. Low;2. Medium;2. Medium;2. Medium;0. No;2. Medium;2. Medium;1. Low;2. Medium;37.198176,42.832349
+Ninewa;Mamilian;347;387;524;434;387;1795;1. Low;1. Low;1. Low;2. Medium;2. Medium;2. Medium;0. No;1. Low;2. Medium;1. Low;1. Low;36.68664,43.7965
+Ninewa;Sheikhan;844;1234;1198;1094;1234;4623;1. Low;2. Medium;1. Low;2. Medium;2. Medium;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;2. Medium;36.677814,43.343325
+Ninewa;Garmawa;210;205;223;335;205;1117;1. Low;1. Low;1. Low;1. Low;0. No;0. No;0. No;2. Medium;2. Medium;2. Medium;2. Medium;36.646885,43.237
+Erbil;Debaga 2;188;226;243;302;226;1083;1. Low;1. Low;0. No;1. Low;2. Medium;2. Medium;2. Medium;1. Low;1. Low;2. Medium;1. Low;35.879121,43.801301
+Ninewa;Hasansham U3;1334;1070;1532;2121;1070;6648;1. Low;2. Medium;0. No;1. Low;0. No;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;1. Low;36.32304,43.5395
+Ninewa;As Salamyiah Nimrud;907;697;1103;1303;697;4414;1. Low;1. Low;0. No;1. Low;1. Low;0. No;0. No;1. Low;1. Low;2. Medium;1. Low;36.10508,43.32115
+Ninewa;Haj Ali;5569;3744;6008;8137;3744;26075;1. Low;1. Low;0. No;2. Medium;0. No;0. No;2. Medium;1. Low;1. Low;1. Low;2. Medium;35.751975,43.3220083
+Ninewa;Qayyarah-Jad'ah 1 & 2;2448;2170;2667;2872;2170;10435;1. Low;2. Medium;1. Low;2. Medium;2. Medium;0. No;2. Medium;1. Low;1. Low;1. Low;1. Low;35.76045,43.268035
+Ninewa;Qayyarah-Jad'ah 3;1754;1707;2096;2354;1707;8435;1. Low;2. Medium;1. Low;2. Medium;2. Medium;0. No;2. Medium;2. Medium;1. Low;1. Low;1. Low;35.75123,43.26595
+Ninewa;Qayyarah-Jad'ah 5;4975;3827;5291;6276;3827;21660;1. Low;2. Medium;1. Low;2. Medium;2. Medium;0. No;1. Low;1. Low;2. Medium;2. Medium;1. Low;35.76501,43.25513
+Salah al-Din;Al-Alam;1117;977;1254;1670;977;5515;1. Low;1. Low;2. Medium;1. Low;0. No;2. Medium;2. Medium;1. Low;1. Low;1. Low;2. Medium;34.824892,43.584781
+Salah al-Din;Al Sh'hamah / Kamarah;692;633;836;877;633;3306;1. Low;1. Low;2. Medium;2. Medium;1. Low;0. No;1. Low;2. Medium;2. Medium;2. Medium;1. Low;34.689,43.619
+Anbar;Bzebiez central camp (Al-Markazi);730;1037;874;790;1037;3368;2. Medium;2. Medium;3. High;1. Low;3. High;0. No;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;33.137507,44.011953
+Anbar;Ahil AlRamadi Camp (Al-Asfar);206;161;190;443;161;1246;2. Medium;2. Medium;3. High;3. High;4. Very high;2. Medium;2. Medium;3. High;3. High;3. High;3. High;33.145,44.015
+Anbar;Ahil AlRamadi 74 Camp;62;33;32;25;33;112;2. Medium;2. Medium;3. High;3. High;3. High;3. High;3. High;2. Medium;2. Medium;3. High;2. Medium;33.146,44.014
+Anbar;Bzebize IDP District  4;116;158;183;103;158;533;2. Medium;2. Medium;2. Medium;3. High;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;3. High;2. Medium;33.147,44.016
+Anbar;Bzebize IDP District  2;188;175;205;270;175;840;2. Medium;2. Medium;2. Medium;3. High;3. High;2. Medium;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;33.14,44.025
+Anbar;Bzebize IDP District  1;238;393;453;401;393;1615;2. Medium;2. Medium;2. Medium;2. Medium;3. High;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;3. High;33.133,44.028
+Anbar;Camp 50;145;224;259;157;224;837;2. Medium;1. Low;2. Medium;3. High;2. Medium;2. Medium;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;33.147,44.012
+Anbar;Bzebiez central camp;320;486;361;352;486;1585;2. Medium;2. Medium;2. Medium;3. High;3. High;2. Medium;2. Medium;2. Medium;1. Low;2. Medium;1. Low;33.13861,44.02083
+Anbar;Al Ihssan ;425;692;592;518;692;2242;2. Medium;1. Low;2. Medium;3. High;3. High;0. No;2. Medium;2. Medium;2. Medium;2. Medium;3. High;33.137487,44.012261
+Anbar;Al-Nasir Camp (AAF01);137;209;133;124;209;591;2. Medium;1. Low;1. Low;2. Medium;2. Medium;0. No;3. High;1. Low;2. Medium;2. Medium;4. Very high;33.1493893832112,43.8404816900798
+Anbar;Al-Salam Camp (AAF02);115;168;175;202;168;743;2. Medium;1. Low;2. Medium;4. Very high;2. Medium;2. Medium;1. Low;2. Medium;3. High;2. Medium;4. Very high;33.149196,43.842974
+Anbar;Al-Hijaj camp (AAF04);130;70;92;125;70;437;2. Medium;2. Medium;3. High;3. High;3. High;2. Medium;2. Medium;2. Medium;2. Medium;3. High;3. High;33.1486561709942,43.848035430537
+Anbar;Al-Amal Al-manshood 1 MoDM camp (AAF05);85;66;77;101;66;336;2. Medium;2. Medium;2. Medium;3. High;2. Medium;3. High;2. Medium;2. Medium;2. Medium;3. High;4. Very high;33.1483369114514,43.8510494778628
+Anbar;School (AAF06);40;118;150;140;118;508;2. Medium;2. Medium;2. Medium;3. High;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;2. Medium;2. Medium;33.1480803294581,43.8530096047349
+Anbar;Amriyat Al-Fallujah semi-perminant / UNHCR Halls (Al Qa'at AAF07);67;50;67;73;50;253;2. Medium;1. Low;1. Low;1. Low;2. Medium;2. Medium;4. Very high;2. Medium;2. Medium;3. High;2. Medium;33.1469100030515,43.8505055221372
+Anbar;Sabe Sanabul camp (AAF09);31;38;44;23;38;126;2. Medium;1. Low;0. No;4. Very high;2. Medium;2. Medium;2. Medium;3. High;3. High;3. High;3. High;33.1449311297714,43.8538630916002
+Anbar;Al-Abaydh camp (AAF10);83;67;107;80;67;307;2. Medium;2. Medium;1. Low;1. Low;2. Medium;0. No;3. High;3. High;4. Very high;3. High;2. Medium;33.1437004717598,43.8504106167888
+Anbar;caravans camp (AAF11);540;270;383;430;270;1487;2. Medium;2. Medium;2. Medium;3. High;2. Medium;3. High;2. Medium;2. Medium;2. Medium;3. High;3. High;33.146486,43.8463219130043
+Anbar;Alamal Almanshood 2 (AAF12);110;52;72;60;52;219;2. Medium;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;2. Medium;2. Medium;3. High;3. High;3. High;33.1447454565022,43.8424348595211
+Anbar;caravans camp (AAF13);83;84;125;88;84;389;2. Medium;1. Low;2. Medium;3. High;2. Medium;2. Medium;2. Medium;3. High;4. Very high;3. High;3. High;33.1422743923658,43.846501212217
+Anbar;Iraq Camp (AAF14);149;171;141;137;171;624;2. Medium;2. Medium;3. High;3. High;4. Very high;2. Medium;2. Medium;2. Medium;1. Low;3. High;3. High;33.1429520824456,43.8534505725145
+Anbar;Al Fallujah Camp (AAF17);165;166;161;139;166;597;2. Medium;1. Low;1. Low;3. High;3. High;2. Medium;3. High;3. High;4. Very high;2. Medium;3. High;33.142085364902,43.8501561541836
+Anbar;Al-Tahrir (Al Khanjar AAF18);197;87;146;138;87;476;2. Medium;1. Low;3. High;3. High;3. High;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;33.1472761648911,43.8400539816908
+Anbar;Amriyat Al-Fallujah Camp 21;165;85;108;293;85;696;2. Medium;1. Low;1. Low;4. Very high;2. Medium;2. Medium;2. Medium;2. Medium;3. High;2. Medium;3. High;33.1388994468615,43.8425874839317
+Anbar;Zoba'a camp (AAF22);140;70;114;85;70;325;2. Medium;1. Low;2. Medium;3. High;2. Medium;2. Medium;3. High;2. Medium;3. High;2. Medium;2. Medium;33.1402048870442,43.8453695695671
+Anbar;Al Najat (AAF24);257;256;186;180;256;1176;2. Medium;2. Medium;2. Medium;3. High;4. Very high;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;33.1396912712346,43.8478520459801
+Anbar;Al Bashayir camp (AAF25);189;110;111;202;110;591;2. Medium;1. Low;3. High;3. High;4. Very high;3. High;2. Medium;2. Medium;2. Medium;3. High;2. Medium;33.1379150165597,43.8474454334642
+Anbar;Al-Tahadi (AAF26);186;146;158;152;146;612;2. Medium;2. Medium;0. No;3. High;2. Medium;2. Medium;4. Very high;4. Very high;3. High;3. High;3. High;33.1375084040438,43.8499279098773
+Anbar;Amriyat Al-Fallujah Camp 27;254;205;157;386;205;985;2. Medium;1. Low;2. Medium;3. High;3. High;2. Medium;2. Medium;2. Medium;2. Medium;3. High;2. Medium;33.1451270385529,43.8397625969789
+Anbar;Amriyat Al-Fallujah Camp 30;258;246;213;391;246;1342;2. Medium;0. No;1. Low;3. High;3. High;3. High;2. Medium;2. Medium;2. Medium;3. High;2. Medium;33.142128,43.855296
+Anbar;Al Abrar (AAF32);130;115;180;138;115;533;2. Medium;1. Low;2. Medium;3. High;2. Medium;3. High;3. High;2. Medium;3. High;3. High;2. Medium;33.147511,43.843325
+Anbar;Al Tahrer Central;165;225;117;114;225;731;2. Medium;1. Low;1. Low;3. High;2. Medium;0. No;2. Medium;1. Low;3. High;2. Medium;4. Very high;33.250813,43.584368
+Anbar;Al-Qasir RHU Camp A;214;235;206;344;235;1126;2. Medium;0. No;1. Low;2. Medium;0. No;2. Medium;2. Medium;1. Low;1. Low;2. Medium;2. Medium;33.250864,43.579861
+Anbar;Al-Qasir 4 - RHU Camp B;165;179;181;273;179;868;2. Medium;0. No;1. Low;2. Medium;0. No;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;2. Medium;33.251819,43.581758
+Anbar;Fallujah camp 1 - HTC;92;91;111;124;91;429;2. Medium;0. No;1. Low;2. Medium;3. High;2. Medium;2. Medium;1. Low;3. High;2. Medium;4. Very high;33.25358,43.58336
+Anbar;Fallujah camp 8 - HTC;200;227;196;179;227;767;2. Medium;1. Low;1. Low;3. High;2. Medium;0. No;2. Medium;1. Low;3. High;1. Low;3. High;33.256382,43.588007
+Anbar;Al Samsud;48;45;49;63;45;203;2. Medium;1. Low;1. Low;2. Medium;2. Medium;0. No;2. Medium;2. Medium;2. Medium;2. Medium;4. Very high;33.248314,43.587558
+Anbar;Kilo 18;735;686;894;971;686;3416;2. Medium;1. Low;0. No;3. High;2. Medium;2. Medium;2. Medium;1. Low;1. Low;2. Medium;4. Very high;33.398393,43.13661
+Baghdad;Al-Amal / Nassir Wa Salam Caravans;32;36;44;24;36;129;2. Medium;2. Medium;4. Very high;2. Medium;1. Low;0. No;1. Low;2. Medium;2. Medium;2. Medium;3. High;33.29297,44.021672
+Baghdad;Kadhra'a;70;102;111;64;102;334;2. Medium;2. Medium;4. Very high;2. Medium;1. Low;2. Medium;0. No;2. Medium;2. Medium;2. Medium;3. High;33.316856,44.290992
+Baghdad;Al Jamea'a;47;60;61;67;60;248;2. Medium;2. Medium;4. Very high;2. Medium;0. No;0. No;0. No;2. Medium;2. Medium;2. Medium;2. Medium;33.311139,44.315428
+Baghdad;Al salam / al takia al kasnazania;113;102;83;80;102;375;2. Medium;2. Medium;2. Medium;1. Low;2. Medium;3. High;2. Medium;1. Low;2. Medium;2. Medium;3. High;33.225832,44.36767
+Baghdad;Latifiya 2;13;16;16;21;16;70;2. Medium;2. Medium;3. High;3. High;2. Medium;2. Medium;2. Medium;3. High;3. High;2. Medium;3. High;32.9851222,44.4756722
+Baghdad;Latifiya 1;37;46;47;43;46;180;2. Medium;2. Medium;3. High;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;4. Very high;2. Medium;3. High;32.91360323,44.55127716
+Baghdad;Al Wahda Camp;37;43;54;70;43;227;2. Medium;2. Medium;3. High;1. Low;2. Medium;3. High;2. Medium;2. Medium;3. High;2. Medium;3. High;33.114462,44.373308
+Baghdad;Zayona;112;101;109;92;101;395;2. Medium;1. Low;1. Low;2. Medium;2. Medium;3. High;0. No;1. Low;2. Medium;1. Low;3. High;33.317933,44.445211
+Kirkuk;Laylan IDP;1429;1482;1919;2256;1482;8178;2. Medium;1. Low;1. Low;2. Medium;0. No;0. No;2. Medium;1. Low;1. Low;2. Medium;2. Medium;35.3282247,44.5305443
+Kirkuk;Nazrawa;896;855;1169;1418;855;4919;2. Medium;2. Medium;0. No;2. Medium;0. No;2. Medium;0. No;1. Low;1. Low;1. Low;2. Medium;35.293098,44.575559
+Kirkuk;Daquq;736;638;970;1225;638;4035;2. Medium;1. Low;0. No;1. Low;0. No;0. No;1. Low;2. Medium;2. Medium;1. Low;2. Medium;35.23435,44.38096
+Kirkuk;Laylan 2;599;592;795;1032;592;3506;2. Medium;1. Low;0. No;1. Low;0. No;2. Medium;0. No;1. Low;2. Medium;2. Medium;2. Medium;35.329312,44.527722
+Dahuk;Bajet Kandala;2002;2591;2786;2679;2591;10706;2. Medium;1. Low;0. No;2. Medium;0. No;0. No;0. No;2. Medium;1. Low;2. Medium;3. High;37.054789,42.445256
+Dahuk;Khanke;2839;4160;4384;3852;4160;16319;2. Medium;1. Low;1. Low;2. Medium;1. Low;0. No;2. Medium;2. Medium;1. Low;2. Medium;3. High;36.77905,42.77649
+Dahuk;Berseve 2;1704;2537;2292;2205;2537;7827;2. Medium;1. Low;4. Very high;1. Low;0. No;0. No;1. Low;2. Medium;1. Low;2. Medium;2. Medium;37.17934,42.86215
+Diyala;Al-Wand 1;711;784;834;678;784;3135;2. Medium;1. Low;0. No;2. Medium;1. Low;0. No;0. No;2. Medium;1. Low;0. No;3. High;34.325296,45.452691
+Diyala;Al-Wand 2;247;282;286;263;282;1128;2. Medium;1. Low;0. No;0. No;1. Low;0. No;2. Medium;2. Medium;2. Medium;1. Low;3. High;34.319722,45.451111
+Diyala;Qoratu;244;255;274;269;255;1122;2. Medium;1. Low;0. No;2. Medium;0. No;2. Medium;1. Low;2. Medium;1. Low;1. Low;3. High;34.544193,45.390722
+Erbil;Baharka;854;904;966;1185;904;4235;2. Medium;1. Low;1. Low;1. Low;2. Medium;0. No;0. No;1. Low;1. Low;2. Medium;3. High;36.294349,43.992
+Erbil;Harshm;300;314;334;434;314;1510;2. Medium;1. Low;0. No;1. Low;2. Medium;0. No;0. No;1. Low;1. Low;2. Medium;2. Medium;36.256285,43.994913
+Ninewa;Essian;2660;3690;3974;3467;3690;14763;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;0. No;1. Low;1. Low;2. Medium;2. Medium;1. Low;36.72461,43.26904
+Ninewa;Mamrashan;1654;2286;2379;2066;2286;8736;2. Medium;1. Low;3. High;1. Low;2. Medium;0. No;1. Low;1. Low;1. Low;1. Low;3. High;36.667236,43.433069
+Sulaymaniyah;Barzinja;100;108;114;100;108;416;2. Medium;2. Medium;0. No;1. Low;0. No;0. No;0. No;2. Medium;2. Medium;2. Medium;3. High;35.532773,45.690558
+Sulaymaniyah;Tazade;422;423;480;533;423;1948;2. Medium;3. High;0. No;2. Medium;2. Medium;2. Medium;0. No;1. Low;1. Low;1. Low;3. High;34.70576,45.44898
+Sulaymaniyah;Arbat IDP;370;368;391;512;368;1795;2. Medium;1. Low;0. No;1. Low;0. No;0. No;0. No;1. Low;1. Low;1. Low;2. Medium;35.4344959,45.590574
+Sulaymaniyah;Ashti IDP;2436;2367;2765;3206;2367;11674;2. Medium;1. Low;0. No;1. Low;2. Medium;0. No;0. No;1. Low;2. Medium;2. Medium;2. Medium;35.41762,45.60593
+Erbil;Debaga 1;1680;2047;2224;2282;2047;8951;2. Medium;1. Low;0. No;2. Medium;2. Medium;2. Medium;1. Low;1. Low;2. Medium;2. Medium;2. Medium;35.882912,43.808181
+Ninewa;Khazer M1;2046;1705;1952;3192;1705;9935;2. Medium;1. Low;0. No;2. Medium;2. Medium;0. No;1. Low;2. Medium;2. Medium;2. Medium;1. Low;36.30807,43.54371
+Ninewa;Hasansham U2;1140;901;1274;1852;901;5905;2. Medium;1. Low;0. No;0. No;0. No;2. Medium;0. No;2. Medium;1. Low;1. Low;1. Low;36.30727,43.53602
+Ninewa;Qayyarah Airstrip;7517;6380;9547;11690;6380;39276;2. Medium;1. Low;0. No;0. No;1. Low;0. No;2. Medium;2. Medium;1. Low;2. Medium;2. Medium;35.761354,43.262971
+Ninewa;Qayyarah-Jad'ah 4;1436;1153;1470;1753;1153;6215;2. Medium;2. Medium;0. No;2. Medium;1. Low;0. No;2. Medium;2. Medium;2. Medium;1. Low;1. Low;35.7812,43.2689
+Ninewa;Qayyarah-Jad'ah 6;3485;3234;3859;3963;3234;15153;2. Medium;1. Low;0. No;2. Medium;2. Medium;0. No;1. Low;1. Low;2. Medium;1. Low;1. Low;35.766787,43.255097
+Ninewa;Hamam Al Alil 1;3841;3268;4606;5468;3268;19100;2. Medium;1. Low;0. No;3. High;2. Medium;0. No;0. No;1. Low;1. Low;1. Low;2. Medium;36.158681,43.252498
+Ninewa;Hamam Al Alil 2;4070;3124;4863;6443;3124;20879;2. Medium;1. Low;0. No;2. Medium;1. Low;2. Medium;1. Low;2. Medium;1. Low;1. Low;1. Low;36.15132,43.2427
+Sulaymaniyah;Surdesh;372;444;436;419;444;1688;2. Medium;2. Medium;0. No;1. Low;0. No;0. No;0. No;2. Medium;2. Medium;2. Medium;4. Very high;35.853415,45.093014
+Anbar;Bzebiez White camp (Al-Abeadh);86;229;174;136;229;619;3. High;2. Medium;3. High;3. High;2. Medium;0. No;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;33.143969,44.019061
+Anbar;Bzebize IDP District  3;131;172;168;235;172;735;3. High;1. Low;3. High;2. Medium;2. Medium;2. Medium;3. High;2. Medium;2. Medium;3. High;2. Medium;33.143,44.02
+Anbar;Al-Amirya - Albu Jwad;319;487;341;341;487;1569;3. High;2. Medium;3. High;3. High;4. Very high;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;1. Low;33.14891935,43.99069786
+Anbar;Al-Ikhowa (AAF03);114;298;189;92;298;715;3. High;1. Low;3. High;2. Medium;2. Medium;0. No;2. Medium;1. Low;2. Medium;2. Medium;4. Very high;33.1488526900798,43.8456313801596
+Anbar;Al-Sa'ada camp (AAF08);208;180;210;100;180;598;3. High;1. Low;2. Medium;2. Medium;1. Low;2. Medium;3. High;2. Medium;3. High;2. Medium;3. High;33.1453143603005,43.8506160105078
+Anbar;Baghdad camp (AAF15);87;93;86;87;93;402;3. High;2. Medium;4. Very high;3. High;2. Medium;0. No;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;33.1407655603084,43.8530131832003
+Anbar;Kiram Al Fallujah Camp (AAF16);150;145;179;176;145;687;3. High;1. Low;2. Medium;3. High;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;3. High;3. High;33.1392474015203,43.850315920606
+Anbar;Al Anbar (AAF19);207;348;392;288;348;1290;3. High;1. Low;4. Very high;3. High;3. High;0. No;2. Medium;2. Medium;2. Medium;2. Medium;3. High;33.1430584839659,43.8395836397025
+Anbar;Amriyat Al-Fallujah Camp 20;175;98;105;200;98;463;3. High;1. Low;2. Medium;2. Medium;2. Medium;3. High;4. Very high;3. High;4. Very high;3. High;3. High;33.1403746331783,43.8429627250275
+Anbar;Al-Simood / Ssumud (AAF23);80;62;76;60;62;280;3. High;1. Low;1. Low;4. Very high;2. Medium;2. Medium;4. Very high;2. Medium;2. Medium;2. Medium;2. Medium;33.1383644303931,43.8450913610035
+Anbar;Amriyat Al-Fallujah Camp 31;210;238;300;248;238;900;3. High;2. Medium;4. Very high;3. High;1. Low;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;2. Medium;33.140172,43.854786
+Anbar;Al-Hijra;367;433;389;460;433;1741;3. High;1. Low;2. Medium;2. Medium;2. Medium;0. No;2. Medium;1. Low;3. High;2. Medium;2. Medium;33.251064,43.577665
+Anbar;Al Tahrer 1;205;210;201;272;210;983;3. High;1. Low;1. Low;0. No;2. Medium;0. No;2. Medium;1. Low;3. High;2. Medium;4. Very high;33.2497539221476,43.5850294491277
+Anbar;Al Tahrer 2;200;219;214;262;219;954;3. High;1. Low;1. Low;1. Low;2. Medium;0. No;2. Medium;1. Low;2. Medium;2. Medium;3. High;33.2524700982013,43.5852117832484
+Anbar;Fallujah camp 7 - HTC;317;306;310;480;306;1580;3. High;0. No;1. Low;2. Medium;2. Medium;0. No;2. Medium;1. Low;2. Medium;2. Medium;3. High;33.249555,43.590561
+Baghdad;Shooting Camp / Al Ahel;167;231;230;197;231;864;3. High;1. Low;1. Low;2. Medium;1. Low;3. High;2. Medium;1. Low;2. Medium;2. Medium;2. Medium;33.48413056,44.18941667
+Salah al-Din;Basateen Al Sheuokh;412;427;446;607;427;2131;3. High;2. Medium;0. No;2. Medium;0. No;3. High;1. Low;2. Medium;2. Medium;2. Medium;1. Low;35.5238283,43.234783
+Anbar;Al-Khalidiya Semi-perminant camp;25;10;6;11;10;32;4. Very high;2. Medium;4. Very high;2. Medium;2. Medium;2. Medium;0. No;2. Medium;4. Very high;2. Medium;2. Medium;33.377581,43.544117
+Anbar;Al-Khalidiya camp 6 (AK4);1;1;0;0;1;2;4. Very high;2. Medium;4. Very high;4. Very high;2. Medium;2. Medium;2. Medium;3. High;4. Very high;3. High;3. High;33.352077,43.512334
+Anbar;Al-Khalidiya camp 10 (AK10);1;2;0;0;2;2;4. Very high;2. Medium;4. Very high;4. Very high;2. Medium;2. Medium;2. Medium;2. Medium;4. Very high;3. High;3. High;33.348634,43.518401
+Anbar;Al-Khalidiya camp 13 (AK13);0;1;0;0;1;2;4. Very high;2. Medium;4. Very high;4. Very high;2. Medium;2. Medium;2. Medium;3. High;4. Very high;3. High;3. High;33.34607,43.503163
+Anbar;Al-Khalidiya camp 1 Markazi (AK-M1);1;2;0;0;2;2;4. Very high;2. Medium;4. Very high;4. Very high;2. Medium;2. Medium;1. Low;3. High;4. Very high;3. High;4. Very high;33.350714,43.548811
